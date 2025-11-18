@@ -8,7 +8,7 @@ const Button = ({
     onPress
     } : {
         title: string,
-        type: 'top' | 'right' | 'number',
+        type: 'top' | 'right' | 'number';
         onPress: Function
     }) => {
     return(
@@ -21,7 +21,7 @@ const Button = ({
                         ? Colors.btnDark 
                         : type == "right"
                         ? Colors.btnRight
-                        : Colors.btnLight
+                        : Colors.btnLight,
                 },
             ]}
             onPress={onPress}
